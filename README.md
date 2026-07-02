@@ -141,3 +141,10 @@ Terraform is used to provision the AWS infrastructure required for the applicati
 
 The Terraform configuration will create the VPC, public and private subnets, Internet Gateway, NAT Gateway, route tables, Amazon ECR repositories, IAM roles and policies, Amazon EKS cluster, and an EKS Managed Node Group. Infrastructure settings such as the environment, region, cluster name, Kubernetes version, and node configuration are managed through Terraform variables. After a successful terraform apply, Terraform outputs useful information such as the cluster name, cluster endpoint, ECR repository URLs, and VPC ID.
 
+
+# Troubleshooting
+Given in /docs/troubleshooting.md
+
+
+# Future Improvements
+Given in /docs/future-improvements.md
