@@ -51,8 +51,11 @@ It performs:
 - Deploy to Kubernetes cluster
 
 -> Secrets Management
+
 All sensitive data like AWS credentials and tokens are stored securely using GitHub Secrets and cloud secret management tools. They are never exposed in code.
+
 How Secrets Should Be Stored Safely?
+
 Ans: Secrets such as passwords, API keys, and tokens must never be stored in code or Git repositories.
 
 Instead, use secure secret management tools:
